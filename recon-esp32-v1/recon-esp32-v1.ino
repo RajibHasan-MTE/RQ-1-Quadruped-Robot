@@ -1,6 +1,5 @@
 #include "Recon.h"
-
-Recon recon;
+  Recon recon;
 
 void setup() {
   recon.init();
@@ -8,11 +7,9 @@ void setup() {
 
 void loop() {
   recon.walkForward();
-  delay(2000);
+  delay(1000);
   recon.walkForward();
-  delay(2000);
+  delay(1000);
   recon.walkForward();
-  delay(2000);
-  recon.walkBackward();
-  delay(2000);
+  delay(1000);
 }
