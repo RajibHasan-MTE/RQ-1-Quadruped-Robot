@@ -10,6 +10,7 @@
 #define FRONT_LEFT_HIP   1
 #define BACK_RIGHT_HIP   2
 #define BACK_LEFT_HIP    3
+
 #define FRONT_RIGHT_LEG  4
 #define FRONT_LEFT_LEG   5
 #define BACK_RIGHT_LEG   6
@@ -20,11 +21,11 @@ class Recon {
     Servo servos[NUM_LEGS];
     int board_pins[NUM_LEGS];
     
-    int hipStraightAngle = 150;
-    int hipSwingAngle = 40;
+    int hipStraightAngle = 160;
+    int hipSwingAngle = 90;
 
     int legDownAngle = 90;
-    int legUpAngle = 60;
+    int legUpAngle = 80;
 
   public:
     Recon();
